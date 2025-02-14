@@ -50,10 +50,13 @@ Android:
  
 Require Android Studio to run the Application
 Once After downloading  Go to > Project Folder (PutzmeisterApp)> android   select open 
+Android Studio with Ladybug Feature Drop | 2024.2.2 version 
 Open with Android studio
 Initially some gradle setup will wait for 5 mins….
 Once gradle build successful
 Once done run the app into Emulator/Device
+or else with CLI - npx react-native run-android need to enter command
+
 iOS: 
 Xcode 15 and above require to run the application 
 Minimum - IOS 13 Support 
@@ -62,5 +65,8 @@ Once After downloading  Go to > Project Folder (PutzmeisterApp)> iOS > Folder Se
 Open with IOS project into Xcode
 Build option on top of the screen > click on that >> It will start Building application
 Once build is successful it will launch the emulator to run the application
+or else
+with CLI - npx react-native run-iOS need to enter command
+
 
 
