@@ -1,0 +1,34 @@
+{
+  "name": "putzmeisterapp",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "expo-start": "expo start",
+    "expo-android": "expo run:android",
+    "expo-ios": "expo run:ios",
+    "expo-web": "expo start --web",
+    "start": "NODE_ENV=development react-native start",
+    "android": "NODE_ENV=development npx react-native run-android",
+    "ios": "NODE_ENV=development npx react-native run-ios"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "axios": "^1.7.9",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-gesture-handler": "^2.23.0",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-screens": "^4.6.0",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "expo": "^52.0.33",
+    "jest-expo": "^52.0.3"
+  },
+  "private": true
+}
