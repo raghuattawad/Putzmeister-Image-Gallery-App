@@ -1,0 +1,34 @@
+Basic Set up installation 
+
+1. Install Homebrew (If Not Installed)
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+2. Install Node.js & Watchman
+
+brew install node watchman
+
+Alternatively, install Node via nvm (recommended for managing versions):
+
+
+brew install nvm
+mkdir ~/.nvm
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.zshrc
+source ~/.zshrc
+nvm install --lts
+
+3. Install Java Development Kit (JDK)
+brew install openjdk
+sudo ln -sfn $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+4. Install Xcode (For iOS Development)
+sudo gem install cocoapods
+Cd project Directory
+pod install
+Xcode Run
+
+
+Note: initally Once project  downloading  opening in Visual studio first install Node modules folder mandatory present to  get dependencies
+
