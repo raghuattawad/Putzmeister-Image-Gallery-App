@@ -30,5 +30,6 @@ pod install
 Xcode Run
 
 
-Note: initally Once project  downloading  opening in Visual studio first install Node modules folder mandatory present to  get dependencies
+Note: initally Once project  downloading  opening in Visual studio first install Node modules folder mandatory present to  get dependencies :
+command ::::- npm install
 
